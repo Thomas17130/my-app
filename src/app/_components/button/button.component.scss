@@ -1,18 +1,27 @@
 button{
+  margin:10% 0 10% 0;
   display: flex;
   justify-content: space-around;
+  align-items: baseline;
 }
 
 .submit {
   width: 100%;
+  padding: 3%;
   display: flex;
   background-color: #007AFF;
   color: white;
+  border-radius : 5px;
+  border-color: transparent;
 }
 
 .google {
   width: 100%;
+  padding: 3%;
   display: flex;
   background-color: #333333;
   color: white;
+  border-radius : 5px;
+  border-color: transparent;
+
 }
