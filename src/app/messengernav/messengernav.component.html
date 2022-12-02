@@ -1,0 +1,21 @@
+<div class="messengernav">
+
+  <div class="titre">
+    Messages
+  </div>
+
+  <div class="search">
+    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+    <span class="input-group-text border-0" id="search-addon">
+      <i class="fas fa-search"></i>
+    </span>
+  </div>
+
+  <section class="messages">
+    <ul>
+      <ng-container *ngFor="let item of messages">
+        <li><img class="photo" src="/assets/images/user.png" alt="{{item}}"></li>
+      </ng-container>
+      </ul>
+  </section>
+</div>

@@ -1,0 +1,32 @@
+<div class="container">
+
+  <!-- FOND ECRAN FORMULAIRE (Côté Gauche)-->
+  <div class="background">
+    <img src="assets/images/login/background.png" alt="Login">
+  </div>
+
+    <!-- FORMULAIRE (Côté Droit)-->
+    <div class="formulaire">
+      <div class="logo">
+        <img routerLink="/header" src="/assets/images/login/logo.png" alt="Octom.">
+      </div>
+
+      <!-- Texte Welcome -->
+      <span class="title">
+        Nice to see you again
+      </span>
+
+      <form class="login">
+        <!-- Inputs Email & Password -->
+        <label for="Email">Email</label>
+        <app-input placeholder="Email"></app-input>
+        <label for="password">Password</label>
+        <app-input placeholder="Password"></app-input>
+        <!-- Checkbox -->
+        <app-checkbox></app-checkbox>
+        <!-- Bouton Valider & Google-->
+        <app-button></app-button>
+      </form>
+    </div>
+  </div>
+
