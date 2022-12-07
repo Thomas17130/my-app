@@ -12,11 +12,14 @@ import { MessengerComponent } from './_pages/messenger/messenger.component';
 import { EbooksComponent } from './_pages/ebooks/ebooks.component';
 import { SettingsComponent } from './_pages/settings/settings.component';
 import { MessengernavComponent } from './messengernav/messengernav.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './auth/login/login.component';
 import { InputComponent } from './_components/input/input.component';
 import { ButtonComponent } from './_components/button/button.component';
 import { CheckboxComponent } from './_components/checkbox/checkbox.component';
 import { MessageErrorComponent } from './_components/message-error/message-error.component';
+import { AuthComponent } from './auth/auth.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { MessageErrorComponent } from './_components/message-error/message-error
     InputComponent,
     ButtonComponent,
     CheckboxComponent,
-    MessageErrorComponent
+    MessageErrorComponent,
+    AuthComponent,
+    RegisterComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,
